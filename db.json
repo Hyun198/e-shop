@@ -1,0 +1,144 @@
+{
+    "products":[
+        {
+            "id":0,
+            "img":"http://www.figuremall.co.kr/shopimages/figuremall/003001001067.jpg?1716791328",
+            "title":"[예약상품]다크 나이트 - 1/6th 배트맨 아머리 & 브루스 웨인 2.0 콜렉터블 세트 (MMS750)",
+            "price":794000,
+            "choice":true,
+            "new":true,
+            "size":["예약 상품"]
+
+        },
+        {
+            "id":1,
+            "img":"http://www.figuremall.co.kr/shopimages/figuremall/003001001064.jpg?1716278971",
+            "title":"더 어메이징 스파이더맨 2 - 1/6th 스파이더맨 (MMS658)",
+            "price":281000,
+            "choice":true,
+            "new":false,
+            "size":["출시 상품"]
+
+        },
+        {
+            "id":2,
+            "img":"http://www.figuremall.co.kr/shopimages/figuremall/003001001060.jpg?1715567971",
+            "title":"[예약상품]로키 - 1/6th 갓 로키 (DX40)",
+            "price":394000,
+            "choice":false,
+            "new":true,
+            "size":["예약 상품"]
+
+        },
+        {
+            "id":3,
+            "img":"http://www.figuremall.co.kr/shopimages/figuremall/003001000941.jpg?1690273340",
+            "title":"[예약상품]The Dark Knight Trilogy - 1/6th The Joker Collectible Figure (DX32)",
+            "price":485000,
+            "choice":false,
+            "new":true,
+            "size":["예약 상품"]
+
+        },
+        {
+            "id":4,
+            "img":"http://www.figuremall.co.kr/shopimages/figuremall/003001000938.jpg?1690267580",
+            "title":"[출시상품]Marvel’s Spider-Man 2 - 1/6th Peter Parker (Black Suit) Collectible Figure (VGM56)",
+            "price":394000,
+            "choice":true,
+            "new":true,
+            "size":["출시 상품"]
+
+        },
+        {
+            "id":5,
+            "img":"http://www.figuremall.co.kr/shopimages/figuremall/003001000650.jpg?1633075780",
+            "title":"베놈: 렛 데어 비 카니지 - 1/6th 카니지 (디럭스 버전)(MMS620)",
+            "price":604000,
+            "choice":false,
+            "new":false,
+            "size":["품절"]
+
+        },
+        {
+            "id":6,
+            "img":"http://www.figuremall.co.kr/shopimages/figuremall/003001000548.jpg?1622711369",
+            "title":"Iron Man 2 - 1/6th War Machine Collectible Figure (MMS331D13)(재판)",
+            "price":442000,
+            "choice":true,
+            "new":false,
+            "size":["품절"]
+
+        },
+        {
+            "id":7,
+            "img":"http://www.figuremall.co.kr/shopimages/figuremall/003001000852.jpg?1669170884",
+            "title":"Star Wars: Obi-Wan Kenobi - 1/6th 501ST Legion Trooper Collectible Figure (TMS092)",
+            "price":304000,
+            "choice":false,
+            "new":true,
+            "size":["출시 상품"]
+
+        },
+        {
+            "id":8,
+            "img":"http://www.figuremall.co.kr/shopimages/figuremall/001002006297.jpg?1667987297",
+            "title":"[예약상품]Black Panther: Wakanda Forever - 1/6th Black Panther Collectible Figure (MMS675)",
+            "price":354000,
+            "choice":true,
+            "new":true,
+            "size":["예약 상품"]
+
+        },
+        {
+            "id":9,
+            "img":"http://www.figuremall.co.kr/shopimages/figuremall/003001000833.jpg?1664247227",
+            "title":"스타 워즈: 만달로리안 - 1/6th 코브 반스 (TMS084)",
+            "price":394000,
+            "choice":false,
+            "new":true,
+            "size":["출시 상품"]
+
+        },
+        {
+            "id":10,
+            "img":"http://www.figuremall.co.kr/shopimages/figuremall/001002006077.jpg?1656054234",
+            "title":"Thor: Love and Thunder - 1/6th Thor Collectible Figure (Deluxe Version)(MMS656)",
+            "price":404000,
+            "choice":true,
+            "new":true,
+            "size":["출시 상품"]
+
+        },
+        {
+            "id":11,
+            "img":"http://www.figuremall.co.kr/shopimages/figuremall/001002006119.jpg?1657787418",
+            "title":"엑스맨 데이즈 오브 퓨처 패스트 - 1/6th 울버린 (1973 버전)(MMS659)",
+            "price":283200,
+            "choice":true,
+            "new":false,
+            "size":["출시 상품"]
+
+        },
+        {
+            "id":12,
+            "img":"http://www.figuremall.co.kr/shopimages/figuremall/003001000986.jpg?1700709953",
+            "title":"코스베이비 - 스타워즈 치루트 & 베이즈 세트 (S) 보블헤드 (COSB340)",
+            "price":25000,
+            "choice":true,
+            "new":false,
+            "size":["출시 상품"]
+
+        },
+        {
+            "id":13,
+            "img":"http://www.figuremall.co.kr/shopimages/figuremall/003001000824.jpg?1662456061",
+            "title":"코스베이비 - 어벤져스: 엔드게임 캡틴 마블 (파이팅 버전) (S) 보블헤드 (COSB548)",
+            "price":12000,
+            "choice":false,
+            "new":false,
+            "size":["출시 상품"]
+
+        }
+    ]
+}

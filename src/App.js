@@ -1,6 +1,7 @@
 import './App.css';
 import { useState } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './component/Navbar';
 import Home from './page/Home';
 import About from './page/About';
@@ -25,9 +26,8 @@ function App() {
 
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Products />} />
         <Route path="/about" element={<About />} />
-        <Route path="/products" element={<Products />} />
         <Route path="/products/:id" element={<ProductDetail />} />
         <Route path="/login" element={<Login />} />
         <Route path="/user" element={<PrivateRoute />} />

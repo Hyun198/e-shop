@@ -37,6 +37,10 @@
   cursor: pointer;
 }
 
+.menu-list li:hover {
+  color: red;
+}
+
 .search-box {
   position: relative;
   right: 25px;
