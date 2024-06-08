@@ -1,9 +1,13 @@
 import React from 'react'
-
+import { useSearchParams } from 'react-router-dom'
 const Products = () => {
+    let [query, setQuery] = useSearchParams();
+    console.log(query.get("q"));
+
+
     return (
         <div>
-            <h1>Show all products</h1>
+            <h1>All Products</h1>
         </div>
     )
 }

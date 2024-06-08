@@ -1,12 +1,16 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-const Home = () => {
+import { Link, useNavigate } from 'react-router-dom'
+const Home = ({ setAuthenticate }) => {
+    const navigate = useNavigate();
+
+    const goProductPage = () => {
+        navigate('/products?q=pants');
+    }
+
+
     return (
         <div>
             <h1>Home</h1>
-            <Link to="/about">Go to about page</Link>
-            <br></br>
-            <Link to="/products">Go to products page</Link>
         </div>
     )
 }
