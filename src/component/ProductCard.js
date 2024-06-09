@@ -1,13 +1,23 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const ProductCard = ({ item }) => {
+    const navigate = useNavigate();
+
+    const gotoDetail = () => {
+        navigate(`/products/${item.id}`)
+
+    }
     return (
-        <div>
+        <div className="product-card" onClick={gotoDetail}>
             <img src={item?.img} />
-            <div>Conscious choice</div>
-            <div>{item?.title}</div>
-            <div>₩{item?.price}</div>
-            <div>{item?.new == true ? "신제품" : ""}</div>
+            <div className="item-new">
+                {item?.new === true ? "NEW" : ""}
+                <span className="item-hot">HOT</span>
+            </div>
+            <div className="item-title">{item?.title}</div>
+            <div className="item-price">₩{item?.price}</div>
+
         </div>
     )
 }

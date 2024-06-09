@@ -7,7 +7,7 @@
             "price":794000,
             "choice":true,
             "new":true,
-            "size":["예약 상품"]
+            "size":["예약금 결제", "전액 결제"]
 
         },
         {
@@ -17,7 +17,7 @@
             "price":281000,
             "choice":true,
             "new":false,
-            "size":["출시 상품"]
+            "size":["예약금 결제", "전액 결제"]
 
         },
         {
@@ -27,7 +27,7 @@
             "price":394000,
             "choice":false,
             "new":true,
-            "size":["예약 상품"]
+            "size":["예약금 결제", "전액 결제"]
 
         },
         {
@@ -37,7 +37,7 @@
             "price":485000,
             "choice":false,
             "new":true,
-            "size":["예약 상품"]
+            "size":["예약금 결제", "전액 결제"]
 
         },
         {
@@ -47,7 +47,7 @@
             "price":394000,
             "choice":true,
             "new":true,
-            "size":["출시 상품"]
+            "size":["예약금 결제", "전액 결제"]
 
         },
         {
@@ -77,7 +77,7 @@
             "price":304000,
             "choice":false,
             "new":true,
-            "size":["출시 상품"]
+            "size":["예약금 결제", "전액 결제"]
 
         },
         {
@@ -87,7 +87,7 @@
             "price":354000,
             "choice":true,
             "new":true,
-            "size":["예약 상품"]
+            "size":["예약금 결제", "전액 결제"]
 
         },
         {
@@ -97,7 +97,7 @@
             "price":394000,
             "choice":false,
             "new":true,
-            "size":["출시 상품"]
+            "size":["예약금 결제", "전액 결제"]
 
         },
         {
@@ -107,7 +107,7 @@
             "price":404000,
             "choice":true,
             "new":true,
-            "size":["출시 상품"]
+            "size":["예약금 결제", "전액 결제"]
 
         },
         {
@@ -117,7 +117,7 @@
             "price":283200,
             "choice":true,
             "new":false,
-            "size":["출시 상품"]
+            "size":["예약금 결제", "전액 결제"]
 
         },
         {
@@ -127,7 +127,7 @@
             "price":25000,
             "choice":true,
             "new":false,
-            "size":["출시 상품"]
+            "size":["예약금 결제", "전액 결제"]
 
         },
         {
@@ -137,7 +137,7 @@
             "price":12000,
             "choice":false,
             "new":false,
-            "size":["출시 상품"]
+            "size":["예약금 결제", "전액 결제"]
 
         }
     ]

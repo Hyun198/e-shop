@@ -7,8 +7,10 @@
 .login-btn {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   margin: 20px;
-
+  gap: 5px;
+  cursor: pointer;
 }
 
 .nav-section {
@@ -69,4 +71,96 @@
 
 .search-box input:focus {
   outline: none;
+}
+
+/*product card-item */
+
+
+.product-card {
+  cursor: pointer;
+  height: 500px;
+}
+
+
+.product-card:hover {
+  scale: 1.2;
+}
+
+.product-card img {
+  width: 100%;
+}
+
+.item-new {
+  color: rgb(231, 231, 7);
+}
+
+.item-hot {
+  margin-left: 10px;
+  color: red;
+  font-weight: bold;
+}
+
+
+
+.item-title {
+  font-size: 15px;
+  width: 100%;
+  padding: 0 0 5px 0;
+}
+
+.item-price {
+  font-weight: bold;
+}
+
+/*product detail*/
+
+
+.product-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.product-detail div {
+  border-bottom: 1px solid black;
+}
+
+.product-img {
+  width: 500px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.product-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+.product-price {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.select-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dropdown-button-dark-example1 {
+  margin-left: 10px;
+  background-color: aliceblue;
+  color: black;
+  border: 1px solid black;
+}
+
+#dropdown-button-dark-example1:hover {
+  background-color: rgb(44, 44, 37);
+  color: rgb(255, 255, 255);
+  border: 1px solid black;
 }

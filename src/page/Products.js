@@ -1,13 +1,21 @@
 import React, { useEffect, useState } from 'react'
 import ProductCard from '../component/ProductCard'
 import { Container, Row, Col } from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom'
+import { useSearchParams } from 'react-router-dom'
 
 const Products = () => {
 
     const [productList, setProductList] = useState([])
+    const [query, setQuery] = useSearchParams();
+    const navigate = useNavigate();
+
 
     const getProducts = async () => {
-        let url = `http://localhost:5000/products`
+        let searchQuery = query.get('q') || "";
+        console.log(searchQuery);
+
+        let url = `http://localhost:5000/products?q=${searchQuery}`
         let response = await fetch(url)
         let data = await response.json()
         setProductList(data);
@@ -15,16 +23,16 @@ const Products = () => {
 
     useEffect(() => {
         getProducts()
-    }, [])
+    }, [query])
 
     return (
         <div>
             <h1>All Products</h1>
             <Container>
                 <Row>
-                    {productList.map((menu) => (
-                        <Col lg={3}>
-                            <ProductCard item={menu} />
+                    {productList.map((product) => (
+                        <Col sm={3}>
+                            <ProductCard item={product} />
                         </Col>
                     ))}
 
