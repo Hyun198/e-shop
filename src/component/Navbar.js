@@ -4,7 +4,7 @@ import { faUser } from '@fortawesome/free-regular-svg-icons'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import { Link, useNavigate } from 'react-router-dom'
 
-const Navbar = () => {
+const Navbar = ({ authenticate, setAuthenticate }) => {
     const menuList = ['1/6 scale', '1/4 scale', 'MMS', 'TMS', 'VGM', 'COSBABY']
     const navigate = useNavigate()
 
@@ -27,14 +27,24 @@ const Navbar = () => {
         <div>
             <div className='login-btn' onClick={goLoginPage}>
                 <FontAwesomeIcon icon={faUser} />
-                <div>Login</div>
+                {
+                    authenticate ? (
+                        <div onClick={() => setAuthenticate(false)}>
+                            <span style={{ cursor: 'pointer' }}>Log out</span>
+                        </div>
+                    ) : (
+                        <div onClick={() => navigate("/login")}>
+                            <span style={{ cursor: 'pointer' }}>Login</span>
+                        </div>
+                    )
+                }
             </div>
 
             <div className='nav-section'>
-                <img width={150}
+                <Link to="/"><img width={150}
                     src="https://d33wubrfki0l68.cloudfront.net/d828ee1d8d02934a37ad97ea22242a5f99575dec/1e494/assets/img/manufacturers/hot-toys.png"
                     alt="hottoys-logo"
-                />
+                /></Link>
             </div>
 
             <div className="menu-area">

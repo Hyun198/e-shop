@@ -5,7 +5,6 @@ const Login = ({ setAuthenticate }) => {
     const navigate = useNavigate()
     const loginUser = (e) => {
         e.preventDefault();
-        console.log('login');
         setAuthenticate(true);
         navigate('/');
     }

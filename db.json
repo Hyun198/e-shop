@@ -7,6 +7,7 @@
             "price":794000,
             "choice":true,
             "new":true,
+            "type": "MMS",
             "size":["예약금 결제", "전액 결제"]
 
         },
@@ -17,6 +18,7 @@
             "price":281000,
             "choice":true,
             "new":false,
+            "type": "MMS",
             "size":["예약금 결제", "전액 결제"]
 
         },
@@ -27,6 +29,7 @@
             "price":394000,
             "choice":false,
             "new":true,
+            "type": "TMS",
             "size":["예약금 결제", "전액 결제"]
 
         },
@@ -37,6 +40,7 @@
             "price":485000,
             "choice":false,
             "new":true,
+            "type": "MMS",
             "size":["예약금 결제", "전액 결제"]
 
         },
@@ -47,6 +51,7 @@
             "price":394000,
             "choice":true,
             "new":true,
+            "type":"VGM",
             "size":["예약금 결제", "전액 결제"]
 
         },
@@ -57,6 +62,7 @@
             "price":604000,
             "choice":false,
             "new":false,
+            "type": "MMS",
             "size":["품절"]
 
         },
@@ -67,6 +73,7 @@
             "price":442000,
             "choice":true,
             "new":false,
+            "type": "MMS",
             "size":["품절"]
 
         },
@@ -77,6 +84,7 @@
             "price":304000,
             "choice":false,
             "new":true,
+            "type": "TMS",
             "size":["예약금 결제", "전액 결제"]
 
         },
@@ -87,6 +95,7 @@
             "price":354000,
             "choice":true,
             "new":true,
+            "type": "MMS",
             "size":["예약금 결제", "전액 결제"]
 
         },
@@ -97,6 +106,7 @@
             "price":394000,
             "choice":false,
             "new":true,
+            "type": "TMS",
             "size":["예약금 결제", "전액 결제"]
 
         },
@@ -107,6 +117,7 @@
             "price":404000,
             "choice":true,
             "new":true,
+            "type": "MMS",
             "size":["예약금 결제", "전액 결제"]
 
         },
@@ -117,6 +128,7 @@
             "price":283200,
             "choice":true,
             "new":false,
+            "type": "MMS",
             "size":["예약금 결제", "전액 결제"]
 
         },
@@ -127,6 +139,7 @@
             "price":25000,
             "choice":true,
             "new":false,
+            "type": "COSBABY",
             "size":["예약금 결제", "전액 결제"]
 
         },
@@ -137,6 +150,7 @@
             "price":12000,
             "choice":false,
             "new":false,
+            "type": "COSBABY",
             "size":["예약금 결제", "전액 결제"]
 
         }

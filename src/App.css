@@ -146,6 +146,10 @@
   font-weight: 700;
 }
 
+.product-type {
+  text-align: center;
+}
+
 .select-price {
   display: flex;
   justify-content: center;

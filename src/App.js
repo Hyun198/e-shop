@@ -20,7 +20,7 @@ function App() {
   }, [authenticate])
   return (
     <div className="App">
-      <Navbar />
+      <Navbar authenticate={authenticate} setAuthenticate={setAuthenticate} />
 
 
       <Routes>
