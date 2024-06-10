@@ -27,7 +27,6 @@ const Products = () => {
 
     return (
         <div>
-            <h1>All Products</h1>
             <Container>
                 <Row>
                     {productList.map((product) => (

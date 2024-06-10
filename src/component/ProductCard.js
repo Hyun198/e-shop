@@ -11,7 +11,7 @@ const ProductCard = ({ item }) => {
     return (
         <div className="product-card" onClick={gotoDetail}>
             <img src={item?.img} />
-            <div className="item-new">
+            <div className="item-famous">
                 {item?.new === true ? "NEW" : ""}
                 <span className="item-hot">HOT</span>
             </div>
