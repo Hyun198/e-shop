@@ -36,6 +36,7 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
                     ))}
                 </div>
             </div>
+
             <div className="nav-header">
                 <div className="burger-menu hide">
                     <FontAwesomeIcon icon={faBars} onClick={() => setWidth(250)} />
@@ -61,6 +62,7 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
                     />
                 </Link>
             </div>
+
             <div class="nav-menu-area">
                 <ul className="menu">
                     {menuList.map((menu, index) => (
@@ -75,6 +77,7 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
                     <input type="text" placeholder="제품검색" onKeyDown={search} />
                 </div>
             </div>
+
         </div>
     )
 }
