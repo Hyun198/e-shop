@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-regular-svg-icons'
-import { faSearch, faBars } from '@fortawesome/free-solid-svg-icons'
+import { faSearch, faBars, faBagShopping } from '@fortawesome/free-solid-svg-icons'
 import { Link, useNavigate } from 'react-router-dom'
 
 const Navbar = ({ authenticate, setAuthenticate }) => {
@@ -41,16 +41,21 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
                 <div className="burger-menu hide">
                     <FontAwesomeIcon icon={faBars} onClick={() => setWidth(250)} />
                 </div>
+
+
                 {authenticate ? (
                     <div onClick={() => setAuthenticate(false)}>
                         <FontAwesomeIcon icon={faUser} />
                         <span style={{ cursor: "pointer" }}>로그아웃</span>
                     </div>
                 ) : (
-                    <div onClick={() => navigate("/login")}>
-                        <FontAwesomeIcon icon={faUser} />
-                        <span style={{ cursor: "pointer" }}>로그인</span>
-                    </div>
+                    <>
+                        <div onClick={() => navigate("/login")}>
+                            <FontAwesomeIcon icon={faUser} />
+                            <span style={{ cursor: "pointer" }}>로그인</span>
+                        </div>
+                    </>
+
                 )}
             </div>
 
@@ -76,9 +81,15 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
                     <FontAwesomeIcon icon={faSearch} />
                     <input type="text" placeholder="제품검색" onKeyDown={search} />
                 </div>
+
+                <div className="shopping-bag">
+                    <Link to="/cart" >
+                        <FontAwesomeIcon icon={faBagShopping} />
+                    </Link>
+                </div>
             </div>
 
-        </div>
+        </div >
     )
 }
 

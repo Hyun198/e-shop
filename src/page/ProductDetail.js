@@ -25,7 +25,7 @@ const ProductDetail = () => {
                 <Col className="product-detail">
                     <div className='product-title'>{product?.title}</div>
                     <div className='product-price'>판매 가격: {product?.price} 원</div>
-                    <div className="product-type">{product?.type}</div>
+                    <div className="product-type">상품 타입: {product?.type}</div>
 
                     <Dropdown className='select-price'>
                         <span>결제 방법: </span>
@@ -38,6 +38,12 @@ const ProductDetail = () => {
                             <Dropdown.Item href="#/action-2">{product?.size[1]}</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
+
+                    <span>
+                        <button type="button" className="buy-btn">구매하기</button>
+                        <button type="button" className="bag-btn">장바구니</button>
+                    </span>
+
                 </Col>
             </Row>
         </Container>

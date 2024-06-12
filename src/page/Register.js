@@ -1,18 +1,18 @@
 import React from 'react'
-import { Form, Button, Container } from 'react-bootstrap'
+import { Container, Form, Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom'
-const Login = ({ setAuthenticate }) => {
+const Register = () => {
     const navigate = useNavigate()
-    const loginUser = (e) => {
+    const registerUser = (e) => {
         e.preventDefault();
-        setAuthenticate(true);
+        console.log('회원가입');
         navigate('/');
     }
 
-
     return (
         <Container>
-            <Form onSubmit={(e) => loginUser(e)}>
+            <Form onSubmit={(e) => registerUser(e)}>
+                <h2>회원가입</h2>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
                     <Form.Control type="email" placeholder="Enter email" />
@@ -29,15 +29,12 @@ const Login = ({ setAuthenticate }) => {
                     <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
                 <Button variant="danger" type="submit">
-                    로그인
+                    회원가입
                 </Button>
-
-
             </Form>
 
-            <a href="/register" className="register-btn">아직 회원이 아니신가요?</a>
         </Container>
     )
 }
 
-export default Login
+export default Register
