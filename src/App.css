@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  min-height: 100vh;
+}
+
 /*nav*/
 .nav-header {
   display: flex;
@@ -16,6 +20,17 @@
 .nav-header * {
   margin-right: 10px;
   margin-top: 20px;
+}
+
+.nav-my-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-my-page a {
+  text-decoration: none;
+  color: black;
 }
 
 .menu {
@@ -233,6 +248,86 @@
   background-color: rgb(44, 44, 37);
   color: rgb(255, 255, 255);
   border: 1px solid black;
+}
+
+
+/*My-page */
+.use-page {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #ddd;
+
+}
+
+.user-rank {
+  display: flex;
+  align-items: center;
+  background-color: hsla(0, 0%, 87%, 0.555);
+
+}
+
+.user-rank>div {
+  flex: 1;
+  border-right: 5px solid #ddd;
+  padding: 10px;
+  height: 150px;
+}
+
+.user-orders {
+  margin-top: 30px;
+  background-color: hsla(0, 0%, 87%, 0.555);
+}
+
+table {
+  width: 100%;
+  /* 테이블 전체 너비를 부모 요소에 맞춤 */
+  border-collapse: collapse;
+  /* 테두리 겹치도록 설정 */
+}
+
+.user-orders th {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.user-orders td {
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.recent-product {
+  margin-top: 30px;
+  background-color: #ddd;
+  height: 150px;
+}
+
+
+/*footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  padding: 20px;
+  background-color: #ddd;
+}
+
+.footer-info {
+  display: flex;
+  padding: 20px;
+  line-height: 45px;
+  align-items: center;
+  font-weight: 800;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  font-weight: 800;
 }
 
 

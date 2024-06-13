@@ -9,7 +9,8 @@ import PrivateRoute from './route/PrivateRoute'
 import Login from './page/Login';
 import Register from './page/Register';
 import Cart from './page/Cart';
-
+import Userpage from './page/Userpage';
+import Footer from './component/Footer';
 
 function App() {
 
@@ -30,8 +31,9 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/mypage" element={<Userpage />} />
       </Routes>
-
+      <Footer />
     </div>
   );
 }

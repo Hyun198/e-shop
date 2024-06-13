@@ -18,6 +18,7 @@ const Navbar = () => {
 
     const logout = () => {
         dispatch({ type: "LOGOUT" });
+        navigate("/");
     }
     const search = (e) => {
         if (e.key === 'Enter') {
@@ -50,10 +51,14 @@ const Navbar = () => {
 
 
                 {authenticate ? (
-                    <div onClick={logout}>
+                    <div className="nav-my-page">
+                        <Link to='/mypage'>My Page</Link>
                         <FontAwesomeIcon icon={faUser} />
-                        <span style={{ cursor: "pointer" }}>로그아웃</span>
+                        <span onClick={logout} style={{ cursor: "pointer" }}>Log out</span>
+
                     </div>
+
+
                 ) : (
                     <>
                         <div onClick={goLoginPage}>
