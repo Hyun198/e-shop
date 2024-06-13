@@ -8,7 +8,7 @@
             "choice":true,
             "new":true,
             "type": "MMS",
-            "size":["예약금 결제", "전액 결제"]
+            "pay":["예약금 결제", "전액 결제"]
 
         },
         {
@@ -19,7 +19,7 @@
             "choice":true,
             "new":false,
             "type": "MMS",
-            "size":["예약금 결제", "전액 결제"]
+            "pay":["예약금 결제", "전액 결제"]
 
         },
         {
@@ -30,7 +30,7 @@
             "choice":false,
             "new":true,
             "type": "TMS",
-            "size":["예약금 결제", "전액 결제"]
+            "pay":["예약금 결제", "전액 결제"]
 
         },
         {
@@ -41,7 +41,7 @@
             "choice":false,
             "new":true,
             "type": "MMS",
-            "size":["예약금 결제", "전액 결제"]
+            "pay":["예약금 결제", "전액 결제"]
 
         },
         {
@@ -52,7 +52,7 @@
             "choice":true,
             "new":true,
             "type":"VGM",
-            "size":["예약금 결제", "전액 결제"]
+            "pay":["예약금 결제", "전액 결제"]
 
         },
         {
@@ -63,7 +63,7 @@
             "choice":false,
             "new":false,
             "type": "MMS",
-            "size":["품절"]
+            "pay":["품절"]
 
         },
         {
@@ -74,7 +74,7 @@
             "choice":true,
             "new":false,
             "type": "MMS",
-            "size":["품절"]
+            "pay":["품절"]
 
         },
         {
@@ -85,7 +85,7 @@
             "choice":false,
             "new":true,
             "type": "TMS",
-            "size":["예약금 결제", "전액 결제"]
+            "pay":["예약금 결제", "전액 결제"]
 
         },
         {
@@ -96,7 +96,7 @@
             "choice":true,
             "new":true,
             "type": "MMS",
-            "size":["예약금 결제", "전액 결제"]
+            "pay":["예약금 결제", "전액 결제"]
 
         },
         {
@@ -107,7 +107,7 @@
             "choice":false,
             "new":true,
             "type": "TMS",
-            "size":["예약금 결제", "전액 결제"]
+            "pay":["예약금 결제", "전액 결제"]
 
         },
         {
@@ -118,7 +118,7 @@
             "choice":true,
             "new":true,
             "type": "MMS",
-            "size":["예약금 결제", "전액 결제"]
+            "pay":["예약금 결제", "전액 결제"]
 
         },
         {
@@ -129,7 +129,7 @@
             "choice":true,
             "new":false,
             "type": "MMS",
-            "size":["예약금 결제", "전액 결제"]
+            "pay":["예약금 결제", "전액 결제"]
 
         },
         {
@@ -140,7 +140,7 @@
             "choice":true,
             "new":false,
             "type": "COSBABY",
-            "size":["예약금 결제", "전액 결제"]
+            "pay":["예약금 결제", "전액 결제"]
 
         },
         {
@@ -151,8 +151,79 @@
             "choice":false,
             "new":false,
             "type": "COSBABY",
-            "size":["예약금 결제", "전액 결제"]
+            "pay":["예약금 결제", "전액 결제"]
 
+        },
+        {
+            "id":14,
+            "img":"http://www.figuremall.co.kr/shopimages/figuremall/001002006745.jpg?1716278509",
+            "title":"로보캅 3 - 1/6 스케일 로보캅 피규어 (MMS669D49)",
+            "price":"426,600",
+            "choice":false,
+            "new":false,
+            "type": "MMS",
+            "pay":["예약금 결제", "전액 결제"]
+
+        },
+        {
+            "id":15,
+            "img":"http://www.figuremall.co.kr/shopimages/figuremall/003001001039.jpg?1711611844",
+            "title":"[예약상품]캐리비안의 해적: 죽은 자는 말이 없다 - 1/6th 잭 스패로우 (디럭스 버전)(DX38)",
+            "price":"444,000",
+            "choice":false,
+            "new":true,
+            "type": "MMS",
+            "pay":["예약금 결제", "전액 결제"]
+        },
+        {
+            "id":16,
+            "img":"http://www.figuremall.co.kr/shopimages/figuremall/003001001027.jpg?1706065543",
+            "title":"[예약상품]리그 오브 레전드 - 1/6th 애쉬 (VGM60)",
+            "price":"414,000",
+            "choice":false,
+            "new":true,
+            "type": "VGM",
+            "pay":["예약금 결제", "전액 결제"]
+        },
+        {
+            "id":17,
+            "img":"http://www.figuremall.co.kr/shopimages/figuremall/003001001018.jpg?1704266267",
+            "title":"[예약상품]아이언맨 - 1/6th 아이언맨 마크2 2.0 (MMS733D59)",
+            "price":"624,000",
+            "choice":false,
+            "new":true,
+            "type": "MMS",
+            "pay":["예약금 결제", "전액 결제"]
+        },
+        {
+            "id":18,
+            "img":"http://www.figuremall.co.kr/shopimages/figuremall/003001000992.jpg?1701400346",
+            "title":"[예약상품]스타워즈: 아소카 - 1/6th 캡틴 렉스 (TMS119)",
+            "price":"344,000",
+            "choice":false,
+            "new":true,
+            "type": "TMS",
+            "pay":["예약금 결제", "전액 결제"]
+        },
+        {
+            "id":19,
+            "img":"http://www.figuremall.co.kr/shopimages/figuremall/003001000936.jpg?1688108596",
+            "title":"[예약상품]The Flash - 1/6th Supergirl Collectible Figure (MMS715) ",
+            "price":"334,000",
+            "choice": false,
+            "new": true,
+            "type": "MMS",
+            "pay":["예약금 결제", "전액 결제"]
+        },
+        {
+            "id":20,
+            "img":"http://www.figuremall.co.kr/shopimages/figuremall/003001000806.jpg?1659003101",
+            "title":"Star Wars: Obi-Wan Kenobi - 1/6th Darth Vader Collectible Figure (Deluxe Version)(DX28)",
+            "price":"414,000",
+            "choice":false,
+            "new":true,
+            "type": "TMS",
+            "pay":["예약금 결제", "전액 결제"]
         }
     ]
 }

@@ -34,8 +34,8 @@ const ProductDetail = () => {
                         </Dropdown.Toggle>
 
                         <Dropdown.Menu>
-                            <Dropdown.Item href="#/action-1">{product?.size[0]}</Dropdown.Item>
-                            <Dropdown.Item href="#/action-2">{product?.size[1]}</Dropdown.Item>
+                            <Dropdown.Item href="#/action-1">{product?.pay[0]}</Dropdown.Item>
+                            <Dropdown.Item href="#/action-2">{product?.pay[1]}</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
 
