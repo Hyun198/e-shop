@@ -1,14 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Form, Button, Container } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
-const Login = ({ setAuthenticate }) => {
+import { useDispatch, useSelector } from 'react-redux'
+
+const Login = () => {
     const navigate = useNavigate()
+    const dispatch = useDispatch()
+
+    const authenticate = useSelector(state => state.authenticate)
+
     const loginUser = (e) => {
         e.preventDefault();
-        setAuthenticate(true);
+        dispatch({ type: "LOGIN" });
+        console.log(authenticate);
         navigate('/');
     }
 
+    useEffect(() => {
+        console.log("authenticate :", authenticate)
+    }, [authenticate]);
 
     return (
         <Container>

@@ -4,25 +4,31 @@ import { faUser } from '@fortawesome/free-regular-svg-icons'
 import { faSearch, faBars, faBagShopping } from '@fortawesome/free-solid-svg-icons'
 import { Link, useNavigate } from 'react-router-dom'
 
-const Navbar = ({ authenticate, setAuthenticate }) => {
+import { useDispatch, useSelector } from 'react-redux'
+
+const Navbar = () => {
     const menuList = ['1/6 scale', '1/4 scale', 'MMS', 'TMS', 'VGM', 'COSBABY']
     const navigate = useNavigate()
-
-    let [width, setWidth] = useState(0);
+    const dispatch = useDispatch();
+    const authenticate = useSelector(state => state.authenticate);
 
     const goLoginPage = () => {
         navigate('/login');
     }
 
+    const logout = () => {
+        dispatch({ type: "LOGOUT" });
+    }
     const search = (e) => {
         if (e.key === 'Enter') {
             let keyword = e.target.value;
-
-            //url 바꾸기
-            navigate(`/?q=${keyword}`)
-
+            navigate(`/?q=${keyword}`);
         }
-    }
+    };
+
+    let [width, setWidth] = useState(0);
+
+
 
     return (
         <div>
@@ -44,13 +50,13 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
 
 
                 {authenticate ? (
-                    <div onClick={() => setAuthenticate(false)}>
+                    <div onClick={logout}>
                         <FontAwesomeIcon icon={faUser} />
                         <span style={{ cursor: "pointer" }}>로그아웃</span>
                     </div>
                 ) : (
                     <>
-                        <div onClick={() => navigate("/login")}>
+                        <div onClick={goLoginPage}>
                             <FontAwesomeIcon icon={faUser} />
                             <span style={{ cursor: "pointer" }}>로그인</span>
                         </div>
