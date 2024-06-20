@@ -8,6 +8,7 @@ import { useDispatch, useSelector } from 'react-redux'
 
 const Navbar = () => {
     const menuList = ['1/6 scale', '1/4 scale', 'MMS', 'TMS', 'VGM', 'COSBABY']
+
     const navigate = useNavigate()
     const dispatch = useDispatch();
     const authenticate = useSelector(state => state.authenticate);
@@ -26,6 +27,8 @@ const Navbar = () => {
             navigate(`/?q=${keyword}`);
         }
     };
+
+
 
     let [width, setWidth] = useState(0);
 
@@ -51,7 +54,13 @@ const Navbar = () => {
 
 
                 {authenticate ? (
+
                     <div className="nav-my-page">
+
+                        <Link to="/cart" >
+                            <FontAwesomeIcon icon={faBagShopping} />
+                        </Link>
+
                         <Link to='/mypage'>My Page</Link>
                         <FontAwesomeIcon icon={faUser} />
                         <span onClick={logout} style={{ cursor: "pointer" }}>Log out</span>
@@ -93,11 +102,7 @@ const Navbar = () => {
                     <input type="text" placeholder="제품검색" onKeyDown={search} />
                 </div>
 
-                <div className="shopping-bag">
-                    <Link to="/cart" >
-                        <FontAwesomeIcon icon={faBagShopping} />
-                    </Link>
-                </div>
+
             </div>
 
         </div >

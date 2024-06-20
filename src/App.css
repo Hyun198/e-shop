@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+.App {
   min-height: 100vh;
 }
 
@@ -24,12 +24,16 @@ body {
 
 .nav-my-page {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: space-between;
+
 }
 
-.nav-my-page a {
+.nav-my-page a,
+.nav-my-page span,
+.nav-my-page svg {
   text-decoration: none;
+  margin: 0 5px;
   color: black;
 }
 
@@ -86,19 +90,16 @@ body {
   outline: none
 }
 
-.shopping-bag {
-  position: absolute;
-  top: 7px;
-  right: 280px;
-  scale: 1.6;
-}
+
 
 /*register */
 .register-btn {
   display: flex;
+  margin: auto;
   justify-content: center;
   text-align: center;
   text-decoration: none;
+  width: fit-content
 }
 
 
@@ -307,11 +308,16 @@ table {
 
 /*footer */
 .footer {
+  margin-top: 100px;
+  position: relative;
+  bottom: -160px;
+  width: 100%;
+  height: 100%;
+  /* 푸터의 높이 */
+  background-color: #ddd;
   display: flex;
   justify-content: space-between;
-  margin-top: auto;
-  padding: 20px;
-  background-color: #ddd;
+  align-items: center;
 }
 
 .footer-info {
